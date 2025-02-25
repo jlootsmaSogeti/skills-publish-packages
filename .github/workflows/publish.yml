@@ -19,7 +19,7 @@ jobs:
               id: meta
               uses: docker/metadata-action@v5
               with:
-                    images: ghcr.io/jlootmsaSogeti/publish-packages/game
+                    images: ghcr.io/jlootsmaSogeti/publish-packages/game
                     tags: type=sha
             
             - name: Login to GHCR
